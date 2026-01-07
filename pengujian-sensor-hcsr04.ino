@@ -4,8 +4,8 @@ const int echoPin = 10;
 
 // --- KALIBRASI WAJIB ---
 // Masukkan jarak antara sensor dan dasar wadah (saat air kosong)
-// Contoh: Jika sensor dipasang 10 cm di atas dasar, isi 10.0
-const float jarakSensorKeDasar = 10.0; 
+
+const float jarakSensorKeDasar = 13.41; 
 
 void setup() {
   Serial.begin(9600);
